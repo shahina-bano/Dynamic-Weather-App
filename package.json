@@ -1,0 +1,17 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Shahina",
+  "license": "ISC",
+  "dependencies": {
+    "kelvin-to-celsius": "^1.1.0",
+    "requests": "^0.3.0"
+  }
+}
